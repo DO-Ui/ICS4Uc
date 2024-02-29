@@ -165,7 +165,7 @@ class Loop {
 	}
 
 	/**
-	 * This program will prompt the user for their name and create a monogram.
+	 * This function will prompt the user for their name and create a monogram.
 	 */
 	public static void monogram() {
 		System.out.print("Enter your first name: ");
@@ -181,7 +181,7 @@ class Loop {
 
 
 	/**
-	 * This program will prompt the user for a string and output the number of vowels in the string.
+	 * This function will prompt the user for a string and output the number of vowels in the string.
 	 */
 	public static void countVowels() {
 		System.out.print("Enter text: ");
