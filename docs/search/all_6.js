@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['mathtutor_14',['mathTutor',['../class_conditional_structures.html#a9de34374b463db53266f6cb447d0f703',1,'ConditionalStructures']]]
+  ['javadictionary_15',['javaDictionary',['../class_intro_to_java.html#a064085d715ae497b0f6272930736b4e6',1,'IntroToJava']]]
 ];

@@ -1,8 +1,5 @@
 var searchData=
 [
-  ['primenumberapp_15',['primeNumberApp',['../class_loop.html#a1bef52b4b5188fb71f617d474a71d442',1,'Loop']]],
-  ['primenumberrangeapp_16',['primeNumberRangeApp',['../class_loop.html#a0fc66da4f1955ebd91207d33e4f53120',1,'Loop']]],
-  ['primenumbersieve_17',['primeNumberSieve',['../class_loop.html#a65d230f6935e45faa2af9e6b49004984',1,'Loop']]],
-  ['printbingocard_18',['printBingoCard',['../class_intro_to_java.html#a08b4f95fcfc86e4c7ade0c40af650317',1,'IntroToJava']]],
-  ['printingprices_19',['printingPrices',['../class_conditional_structures.html#a89ab145de73847b39c3762d7bbe6e063',1,'ConditionalStructures']]]
+  ['loop_16',['Loop',['../class_loop.html',1,'']]],
+  ['loop_2ejava_17',['Loop.java',['../_loop_8java.html',1,'']]]
 ];

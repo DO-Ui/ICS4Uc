@@ -1,4 +1,6 @@
 var searchData=
 [
-  ['javadictionary_36',['javaDictionary',['../class_intro_to_java.html#a064085d715ae497b0f6272930736b4e6',1,'IntroToJava']]]
+  ['generateuniquerandomnumbers_41',['generateUniqueRandomNumbers',['../class_intro_to_java.html#a1813ce35e8374bf27cc3bd4a5af2e37e',1,'IntroToJava']]],
+  ['gradecalculator_42',['gradeCalculator',['../class_conditional_structures.html#aa269220c8c26d7057392636d831a2ae0',1,'ConditionalStructures']]],
+  ['guessinggame_43',['guessingGame',['../class_conditional_structures.html#aa90852735e640dbe84fe2e9c41874129',1,'ConditionalStructures']]]
 ];

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['mathtutor_37',['mathTutor',['../class_conditional_structures.html#a9de34374b463db53266f6cb447d0f703',1,'ConditionalStructures']]]
+  ['isprimenumber_44',['isPrimeNumber',['../class_loop.html#a239744c83043885b5c118fb2e1ffb91b',1,'Loop']]]
 ];
