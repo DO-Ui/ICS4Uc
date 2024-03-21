@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['elapsedtimecalculator_40',['elapsedTimeCalculator',['../class_loop.html#af9ad1153163cb75c93645a5fe0fe1595',1,'Loop']]]
+  ['digitdisplay_47',['digitDisplay',['../class_loop.html#a56b999a3a93bfbc1d89f1f0187cab1b8',1,'Loop.digitDisplay()'],['../class_loop.html#a56b999a3a93bfbc1d89f1f0187cab1b8',1,'Loop.digitDisplay()']]],
+  ['digitsum_48',['digitSum',['../class_loop.html#a01945d6418ebaf6f337ba3564b780200',1,'Loop.digitSum()'],['../class_loop.html#a01945d6418ebaf6f337ba3564b780200',1,'Loop.digitSum()']]]
 ];

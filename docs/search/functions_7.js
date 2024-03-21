@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['mathtutor_46',['mathTutor',['../class_conditional_structures.html#a9de34374b463db53266f6cb447d0f703',1,'ConditionalStructures']]],
-  ['monogram_47',['monogram',['../class_loop.html#afe7d1a24deaa6580bbc9fc9703c67d40',1,'Loop']]]
+  ['javadictionary_54',['javaDictionary',['../class_intro_to_java.html#a064085d715ae497b0f6272930736b4e6',1,'IntroToJava']]]
 ];

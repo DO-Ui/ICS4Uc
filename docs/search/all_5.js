@@ -1,7 +1,6 @@
 var searchData=
 [
-  ['ics4uc_20assignments_11',['ICS4Uc Assignments',['../index.html',1,'']]],
-  ['introtojava_12',['IntroToJava',['../class_intro_to_java.html',1,'']]],
-  ['introtojava_2ejava_13',['IntroToJava.java',['../_intro_to_java_8java.html',1,'']]],
-  ['isprimenumber_14',['isPrimeNumber',['../class_loop.html#a239744c83043885b5c118fb2e1ffb91b',1,'Loop']]]
+  ['generateuniquerandomnumbers_10',['generateUniqueRandomNumbers',['../class_intro_to_java.html#a1813ce35e8374bf27cc3bd4a5af2e37e',1,'IntroToJava']]],
+  ['gradecalculator_11',['gradeCalculator',['../class_conditional_structures.html#aa269220c8c26d7057392636d831a2ae0',1,'ConditionalStructures']]],
+  ['guessinggame_12',['guessingGame',['../class_conditional_structures.html#aa90852735e640dbe84fe2e9c41874129',1,'ConditionalStructures']]]
 ];
