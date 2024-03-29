@@ -3,12 +3,12 @@
  * @brief This Java application is for the Methods assignment.
  */
 
-import java.util.Scanner;
+ import java.util.Scanner;
 
  /* 
   * Ryan Yang
   * ICS4Uc
-  * March 20th, 2024
+  * March 21st, 2024
   */
  
  /**
@@ -77,33 +77,37 @@ import java.util.Scanner;
 	  * This function is the interface for the unit conversion app
 	  */
 	 public static void unitConversionApp() {
-		 System.out.println(
-				 "LIST OF UNITS\n\tCENTIMETER [1]\n\tMETER\t   [2]\n\tKILOMETER  [3]\n\tINCH\t   [4]\n\tYARD\t   [5]\n\tMILE\t   [6]");
+		 System.out.println("LIST OF UNITS\n\tCENTIMETER [1]\n\tMETER\t   [2]\n\tKILOMETER  [3]\n\tINCH\t   [4]\n\tYARD\t   [5]\n\tMILE\t   [6]");
 		 System.out.print("Select the starting unit (1-6): ");
 		 int selectedStartingUnit = input.nextInt();
 		 System.out.print("Select the ending unit (1-6): ");
 		 int selectedEndingUnit = input.nextInt();
 		 System.out.print("Enter the starting value: ");
 		 double startingValue = input.nextDouble();
+
+		 // If the selected unit is not valid, prevent index out of bounds error
+		 if ((1 <= selectedStartingUnit && selectedStartingUnit <= 6) && (1 <= selectedEndingUnit && selectedEndingUnit <= 6)) {
+			 // Index is 0 based but user input is 1 based
+			 Unit startingUnit = Unit.values()[selectedStartingUnit - 1];
+			 Unit endingUnit = Unit.values()[selectedEndingUnit - 1];
+
+			 double endingValue = convertUnit(startingUnit, endingUnit, startingValue);
+	 
+			 // Using a ternary statement to select plurality if the value is 1 or not
+			 String startingUnitName = startingValue == 1 ? startingUnit.name().toLowerCase() : startingUnit.name().toLowerCase() + "s";
+			 String endingUnitName = endingValue == 1 ? endingUnit.name().toLowerCase() : endingUnit.name().toLowerCase() + "s";
+	 
+			 System.out.format("%.2f %s equals %.2f %s\n", startingValue, startingUnitName, endingValue, endingUnitName);
+		 } else {
+			 System.out.println("That unit is not in the list!");
+		 }
+		 
  
-		 // Index is 0 based but user input is 1 based
-		 Unit startingUnit = Unit.values()[selectedStartingUnit - 1];
-		 Unit endingUnit = Unit.values()[selectedEndingUnit - 1];
- 
-		 double endingValue = convertUnit(startingUnit, endingUnit, startingValue);
- 
-		 // Using a ternary statement to select plurality if the value is 1 or not
-		 String startingUnitName = startingValue == 1 ? startingUnit.name().toLowerCase()
-				 : startingUnit.name().toLowerCase() + "s";
-		 String endingUnitName = endingValue == 1 ? endingUnit.name().toLowerCase()
-				 : endingUnit.name().toLowerCase() + "s";
- 
-		 System.out.format("%.2f %s equals %.2f %s\n", startingValue, startingUnitName, endingValue, endingUnitName);
  
 	 }
  
 	 /*
-	  * This is a custom enum class for the conversion of units which contains the
+	  * This is a custom enum object for the conversion of units which contains the
 	  * conversion factors for each unit.
 	  */
 	 private static enum Unit {
