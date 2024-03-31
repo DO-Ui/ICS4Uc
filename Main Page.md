@@ -7,3 +7,4 @@
 3. [Conditional Structures](./class_conditional_structures.html)
 4. [Loop](./class_loop.html)
 5. [Methods](./class_methods.html)
+6. [Arrays](./class_arrays.html)
