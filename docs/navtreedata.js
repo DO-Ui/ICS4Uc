@@ -42,7 +42,7 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"_conditional_structures_8java.html"
+"_arrays_8java.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

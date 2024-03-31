@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['unitconversionapp_62',['unitConversionApp',['../class_methods.html#aa23155a54e46c685a5832efe01456a25',1,'Methods']]]
+  ['randomstats_71',['randomStats',['../class_arrays.html#accbfbddccaa3c59da6edeedbeb82c3f3',1,'Arrays']]]
 ];
