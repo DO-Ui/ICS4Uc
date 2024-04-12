@@ -41,7 +41,7 @@ class Arrays {
 			// Switch case
 			switch (program) {
 				case 1:
-					randomStats();
+					randomStats(1000);
 					break;
 				case 2:
 					pennyPitch();
