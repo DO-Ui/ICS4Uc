@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['arrays_37',['Arrays',['../class_arrays.html',1,'']]]
+  ['addergame_64',['AdderGame',['../class_adder_game.html',1,'']]],
+  ['arrays_65',['Arrays',['../class_arrays.html',1,'']]]
 ];

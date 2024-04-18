@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['variablesandconstants_35',['VariablesAndConstants',['../class_variables_and_constants.html',1,'']]],
-  ['variablesandconstants_2ejava_36',['VariablesAndConstants.java',['../_variables_and_constants_8java.html',1,'']]]
+  ['randomstats_58',['randomStats',['../class_arrays.html#accbfbddccaa3c59da6edeedbeb82c3f3',1,'Arrays']]],
+  ['roundwin_59',['roundWin',['../class_adder_game.html#aa728678bfc7af1f8b0ef2171e40f3c45',1,'AdderGame']]]
 ];

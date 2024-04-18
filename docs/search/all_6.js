@@ -1,8 +1,16 @@
 var searchData=
 [
-  ['ics4uc_20assignments_15',['ICS4Uc Assignments',['../index.html',1,'']]],
-  ['introtojava_16',['IntroToJava',['../class_intro_to_java.html',1,'']]],
-  ['introtojava_2ejava_17',['IntroToJava.java',['../_intro_to_java_8java.html',1,'']]],
-  ['inventoryapp_18',['inventoryApp',['../class_arrays.html#a1f68d4bf4414275a6a0bcd414c0be097',1,'Arrays']]],
-  ['isprimenumber_19',['isPrimeNumber',['../class_loop.html#a239744c83043885b5c118fb2e1ffb91b',1,'Loop.isPrimeNumber(int n)'],['../class_loop.html#a239744c83043885b5c118fb2e1ffb91b',1,'Loop.isPrimeNumber(int n)']]]
+  ['generateuniquerandomnumbers_20',['generateUniqueRandomNumbers',['../class_intro_to_java.html#a1813ce35e8374bf27cc3bd4a5af2e37e',1,'IntroToJava']]],
+  ['getbalance_21',['getBalance',['../class_piggy_bank.html#ac22ee9cd44515a4777830ee0b7f73a22',1,'PiggyBank']]],
+  ['getcarbohydrates_22',['getCarbohydrates',['../class_food.html#a3cc427f63276076e8b47e4e8db89d633',1,'Food']]],
+  ['getdiameterinmillimeters_23',['getdiameterInMillimeters',['../enum_coins.html#a95b2816d376057b5de5ea02e632f2a95',1,'Coins']]],
+  ['getfat_24',['getFat',['../class_food.html#a9faa30510b687ceb86bcaed914cc2e1a',1,'Food']]],
+  ['getfiber_25',['getFiber',['../class_food.html#a3a828a62259ea17250bfec6a35814a23',1,'Food']]],
+  ['getfoodname_26',['getFoodName',['../class_food.html#a59bea1a94ba8ccd8e5d0d8cb891e7c0e',1,'Food']]],
+  ['getpoints_27',['getPoints',['../class_adder_game.html#a9eb904fc907f0452c62d89b45787a172',1,'AdderGame']]],
+  ['getprice_28',['getPrice',['../class_food.html#ad722c0917120032c1bdc9eb08095b705',1,'Food']]],
+  ['getrandomnumber_29',['getRandomNumber',['../class_adder_game.html#a9b094b641f5298b5ee1a61d7fd453cc4',1,'AdderGame']]],
+  ['getvalue_30',['getValue',['../enum_coins.html#abf0acf9a269c504b7f542ab607f42952',1,'Coins']]],
+  ['gradecalculator_31',['gradeCalculator',['../class_conditional_structures.html#aa269220c8c26d7057392636d831a2ae0',1,'ConditionalStructures']]],
+  ['guessinggame_32',['guessingGame',['../class_conditional_structures.html#aa90852735e640dbe84fe2e9c41874129',1,'ConditionalStructures']]]
 ];

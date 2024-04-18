@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['unitconversionapp_72',['unitConversionApp',['../class_methods.html#aa23155a54e46c685a5832efe01456a25',1,'Methods']]]
+  ['randomstats_123',['randomStats',['../class_arrays.html#accbfbddccaa3c59da6edeedbeb82c3f3',1,'Arrays']]],
+  ['roundwin_124',['roundWin',['../class_adder_game.html#aa728678bfc7af1f8b0ef2171e40f3c45',1,'AdderGame']]]
 ];

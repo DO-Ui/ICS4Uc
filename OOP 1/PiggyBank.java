@@ -4,7 +4,7 @@
  * @brief This Java file describes the PiggyBank class used in OOP1.
  */
 
-import java.util.Map; // Using a java Map to allow for key to value associations
+
 
 public class PiggyBank {
 
@@ -12,43 +12,60 @@ public class PiggyBank {
 	 * Declare a map initalized with each coin type and how many of them are present
 	 * (0 to start)
 	 */
-	private Map<String, Integer> coinsInBank = Map.ofEntries(
-			Map.entry("PENNY", 0),
-			Map.entry("NICKEL", 0),
-			Map.entry("DIME", 0),
-			Map.entry("QUARTER", 0),
-			Map.entry("LOONIE", 0),
-			Map.entry("TOONIE", 0));
+	private int[] coinsInBank = {0, 0, 0, 0, 0, 0};
 
+	/**
+	 * @brief This method returns the total balance of the piggy bank
+	 * @return The total balance of the piggy bank
+	 */
 	public double getBalance() {
 		double total = 0.0;
-		for (String coinType : coinsInBank.keySet()) {
-			total += coinsInBank.get(coinType) * Coins.valueOf(coinType).getValue();
+
+		for (int i = 0; i < coinsInBank.length; i++) {
+			total += coinsInBank[i] * Coins.values()[i].getValue();
 		}
 
 		return total;
 	}
 
+	/**
+	 * @brief This method adds coins to the piggy bank
+	 * @param coinType The type of coin to add
+	 * @param numCoins The number of coins to add
+	 * @return True if the coins were added successfully, false otherwise
+	 */
 	public boolean addCoins(Coins coinType, int numCoins) {
+		// Check if the number of coins is valid
 		if (numCoins <= 0) {
 			return false;
 		}
 
-		System.err.println(coinType.name());
-
-		// Increment the number of coins of the given type in the bank
-		coinsInBank.put(coinType.name(), coinsInBank.get(coinType.name()) + numCoins);
+		// Add the coins to the bank
+		coinsInBank[coinType.ordinal()] += numCoins;
 
 
 		return true;
 
 	}
 
+	/**
+	 * @brief This method removes coins from the piggy bank
+	 * @param coinType The type of coin to remove
+	 * @param numCoins The number of coins to remove
+	 * @return True if the coins were removed successfully, false otherwise
+	 */
 	public boolean subCoins(Coins coinType, int numCoins) {
-		if (numCoins >= 0) {
+		// Check if the number of coins is valid
+		if (numCoins <= 0) {
 			return false;
 		}
-		
+		// Check if there are enough coins to remove
+		if (coinsInBank[coinType.ordinal()] < numCoins) {
+			return false;
+		}
+
+		// Remove the coins from the bank
+		coinsInBank[coinType.ordinal()] -= numCoins;
 
 		return true;
 
