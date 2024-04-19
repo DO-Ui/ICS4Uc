@@ -60,44 +60,14 @@ public class OOP1 {
 	 * This function runs the Adder game.
 	 */
 	public static void adderApp() {
-		AdderGame game = new AdderGame();
+		AdderGame game = new AdderGame(input);
 		boolean programRunning = true;
 		while (programRunning) {
-			int a = game.getRandomNumber();
-			int b = game.getRandomNumber();
-			int correctAnswer = a + b;
-			System.out.format("What is %d + %d? (Enter 999 to exit) ", a, b);
-			int userAnswer = input.nextInt();
-			if (userAnswer == 999) {
-				System.out.format("Your score is %d\n", game.getPoints());
+			System.out.println("Current score: " + game.getPoints());
+			boolean continueGame = game.playRound();
+			if (!continueGame) {
 				programRunning = false;
-				continue;
 			}
-
-			if (userAnswer == correctAnswer) {
-				System.out.println("Correct!");
-				game.roundWin(5);
-			} else {
-				System.out.println("Incorrect!");
-				System.out.print("Wrong answer. Enter another answer: ");
-				userAnswer = input.nextInt();
-				if (userAnswer == correctAnswer) {
-					System.out.println("Correct!");
-					game.roundWin(3);
-				} else {
-					System.out.println("Incorrect!");
-					System.out.print("Wrong answer. Enter another answer: ");
-					userAnswer = input.nextInt();
-					if (userAnswer == correctAnswer) {
-						System.out.println("Correct!");
-						game.roundWin(1);
-					} else {
-						System.out.println("Incorrect!");
-						System.out.format("The correct answer was %d\n", correctAnswer);
-					}
-				}
-			}
-
 		}
 	}
 
