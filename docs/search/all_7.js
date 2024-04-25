@@ -1,8 +1,4 @@
 var searchData=
 [
-  ['ics4uc_20assignments_32',['ICS4Uc Assignments',['../index.html',1,'']]],
-  ['introtojava_33',['IntroToJava',['../class_intro_to_java.html',1,'']]],
-  ['introtojava_2ejava_34',['IntroToJava.java',['../_intro_to_java_8java.html',1,'']]],
-  ['inventoryapp_35',['inventoryApp',['../class_arrays.html#a1f68d4bf4414275a6a0bcd414c0be097',1,'Arrays']]],
-  ['isprimenumber_36',['isPrimeNumber',['../class_loop.html#a239744c83043885b5c118fb2e1ffb91b',1,'Loop']]]
+  ['honk_55',['honk',['../class_car.html#a30aa06a83cfbf1ca93e9878309137105',1,'Car.honk()'],['../class_minivan.html#a3774653e82d79dfc956d75b7ab086e59',1,'Minivan.honk()'],['../class_truck.html#a1a39c151f085cb7d1456a24cdca0095c',1,'Truck.honk()']]]
 ];
