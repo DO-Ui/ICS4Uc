@@ -3,6 +3,9 @@
  * @brief This Java file describes the Coins enum used in OOP1.
  */
 
+/**
+ * This enum is used to represent the different types of coins
+ */
  public enum Coins {
 
 	PENNY(0.01, 19.05),

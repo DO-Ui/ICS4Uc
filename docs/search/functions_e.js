@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['tostring_202',['toString',['../class_account.html#a7cfedfa115540d3e3e4bbd3404da2104',1,'Account.toString()'],['../class_customer.html#ad2d375466bd51b83c89490333ab1b859',1,'Customer.toString()']]],
-  ['truck_203',['Truck',['../class_truck.html#aefc080b2a4d61dc51d7a037794e6d028',1,'Truck']]]
+  ['randomstats_225',['randomStats',['../class_arrays.html#accbfbddccaa3c59da6edeedbeb82c3f3',1,'Arrays']]],
+  ['roundwin_226',['roundWin',['../class_adder_game.html#aa728678bfc7af1f8b0ef2171e40f3c45',1,'AdderGame']]]
 ];

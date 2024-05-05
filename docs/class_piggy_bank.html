@@ -92,6 +92,11 @@ $(document).ready(function(){initNavTree('class_piggy_bank.html',''); initResiza
 <div class="title">PiggyBank Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>This class is used to simulate a piggy bank.  
+ <a href="class_piggy_bank.html#details">More...</a></p>
+
+<p>Inherits <a class="el" href="interface_bank.html">Bank</a>.</p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -104,10 +109,21 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a31d21983eb83a70340e6bdc5fe6c9f89"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_piggy_bank.html#a31d21983eb83a70340e6bdc5fe6c9f89">subCoins</a> (<a class="el" href="enum_coins.html">Coins</a> coinType, int numCoins)</td></tr>
 <tr class="memdesc:a31d21983eb83a70340e6bdc5fe6c9f89"><td class="mdescLeft">&#160;</td><td class="mdescRight">This method removes coins from the piggy bank.  <a href="class_piggy_bank.html#a31d21983eb83a70340e6bdc5fe6c9f89">More...</a><br /></td></tr>
 <tr class="separator:a31d21983eb83a70340e6bdc5fe6c9f89"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac22ee9cd44515a4777830ee0b7f73a22"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_piggy_bank.html#ac22ee9cd44515a4777830ee0b7f73a22">getBalance</a> ()</td></tr>
+<tr class="memdesc:ac22ee9cd44515a4777830ee0b7f73a22"><td class="mdescLeft">&#160;</td><td class="mdescRight">This method returns the total balance of the piggy bank.  <a href="class_piggy_bank.html#ac22ee9cd44515a4777830ee0b7f73a22">More...</a><br /></td></tr>
+<tr class="separator:ac22ee9cd44515a4777830ee0b7f73a22"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a54352501c9b6380ebb0a18c45d0d06f1"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_piggy_bank.html#a54352501c9b6380ebb0a18c45d0d06f1">addCoins</a> (<a class="el" href="enum_coins.html">Coins</a> coinType, int numCoins)</td></tr>
+<tr class="memdesc:a54352501c9b6380ebb0a18c45d0d06f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">This method adds coins to the piggy bank instead of using a setter.  <a href="class_piggy_bank.html#a54352501c9b6380ebb0a18c45d0d06f1">More...</a><br /></td></tr>
+<tr class="separator:a54352501c9b6380ebb0a18c45d0d06f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a31d21983eb83a70340e6bdc5fe6c9f89"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_piggy_bank.html#a31d21983eb83a70340e6bdc5fe6c9f89">subCoins</a> (<a class="el" href="enum_coins.html">Coins</a> coinType, int numCoins)</td></tr>
+<tr class="memdesc:a31d21983eb83a70340e6bdc5fe6c9f89"><td class="mdescLeft">&#160;</td><td class="mdescRight">This method removes coins from the piggy bank.  <a href="class_piggy_bank.html#a31d21983eb83a70340e6bdc5fe6c9f89">More...</a><br /></td></tr>
+<tr class="separator:a31d21983eb83a70340e6bdc5fe6c9f89"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>This class is used to simulate a piggy bank. </p>
+</div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a54352501c9b6380ebb0a18c45d0d06f1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a54352501c9b6380ebb0a18c45d0d06f1">&#9670;&nbsp;</a></span>addCoins()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a54352501c9b6380ebb0a18c45d0d06f1">&#9670;&nbsp;</a></span>addCoins() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -142,10 +158,52 @@ Public Member Functions</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>True if the coins were added successfully, false otherwise </dd></dl>
 
+<p>Implements <a class="el" href="interface_bank.html">Bank</a>.</p>
+
+</div>
+</div>
+<a id="a54352501c9b6380ebb0a18c45d0d06f1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a54352501c9b6380ebb0a18c45d0d06f1">&#9670;&nbsp;</a></span>addCoins() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean PiggyBank.addCoins </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="enum_coins.html">Coins</a>&#160;</td>
+          <td class="paramname"><em>coinType</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>numCoins</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This method adds coins to the piggy bank instead of using a setter. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">coinType</td><td>The type of coin to add </td></tr>
+    <tr><td class="paramname">numCoins</td><td>The number of coins to add </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>True if the coins were added successfully, false otherwise </dd></dl>
+
+<p>Implements <a class="el" href="interface_bank.html">Bank</a>.</p>
+
 </div>
 </div>
 <a id="ac22ee9cd44515a4777830ee0b7f73a22"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac22ee9cd44515a4777830ee0b7f73a22">&#9670;&nbsp;</a></span>getBalance()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ac22ee9cd44515a4777830ee0b7f73a22">&#9670;&nbsp;</a></span>getBalance() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -162,10 +220,34 @@ Public Member Functions</h2></td></tr>
 <p>This method returns the total balance of the piggy bank. </p>
 <dl class="section return"><dt>Returns</dt><dd>The total balance of the piggy bank </dd></dl>
 
+<p>Implements <a class="el" href="interface_bank.html">Bank</a>.</p>
+
+</div>
+</div>
+<a id="ac22ee9cd44515a4777830ee0b7f73a22"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac22ee9cd44515a4777830ee0b7f73a22">&#9670;&nbsp;</a></span>getBalance() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double PiggyBank.getBalance </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This method returns the total balance of the piggy bank. </p>
+<dl class="section return"><dt>Returns</dt><dd>The total balance of the piggy bank </dd></dl>
+
+<p>Implements <a class="el" href="interface_bank.html">Bank</a>.</p>
+
 </div>
 </div>
 <a id="a31d21983eb83a70340e6bdc5fe6c9f89"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a31d21983eb83a70340e6bdc5fe6c9f89">&#9670;&nbsp;</a></span>subCoins()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a31d21983eb83a70340e6bdc5fe6c9f89">&#9670;&nbsp;</a></span>subCoins() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -200,10 +282,52 @@ Public Member Functions</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>True if the coins were removed successfully, false otherwise </dd></dl>
 
+<p>Implements <a class="el" href="interface_bank.html">Bank</a>.</p>
+
+</div>
+</div>
+<a id="a31d21983eb83a70340e6bdc5fe6c9f89"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a31d21983eb83a70340e6bdc5fe6c9f89">&#9670;&nbsp;</a></span>subCoins() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean PiggyBank.subCoins </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="enum_coins.html">Coins</a>&#160;</td>
+          <td class="paramname"><em>coinType</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>numCoins</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This method removes coins from the piggy bank. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">coinType</td><td>The type of coin to remove </td></tr>
+    <tr><td class="paramname">numCoins</td><td>The number of coins to remove </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>True if the coins were removed successfully, false otherwise </dd></dl>
+
+<p>Implements <a class="el" href="interface_bank.html">Bank</a>.</p>
+
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>OOP 1/<a class="el" href="_piggy_bank_8java.html">PiggyBank.java</a></li>
+<li>OOP 1/<a class="el" href="_o_o_p_011_2_piggy_bank_8java.html">PiggyBank.java</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

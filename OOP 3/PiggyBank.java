@@ -3,6 +3,9 @@
  * @brief This Java file describes the PiggyBank class used in OOP3.
  */
 
+ /**
+  * This class is used to simulate a piggy bank
+  */
 public class PiggyBank implements Bank {
     
     /*
@@ -26,7 +29,7 @@ public class PiggyBank implements Bank {
 	}
 
 	/**
-	 * @brief This method adds coins to the piggy bank
+	 * @brief This method adds coins to the piggy bank instead of using a setter
 	 * @param coinType The type of coin to add
 	 * @param numCoins The number of coins to add
 	 * @return True if the coins were added successfully, false otherwise

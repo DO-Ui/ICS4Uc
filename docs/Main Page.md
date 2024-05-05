@@ -10,3 +10,4 @@
 6. [Arrays](./class_arrays.html)
 7. [OOP1](./class_o_o_p1.html)
 8. [OOP2](./class_o_o_p2.html)
+9. [OOP3](./class_o_o_p3.html)

@@ -32,7 +32,7 @@ public class OOP3 {
             System.out.println("Welcome to the Java Program Selector:");
             System.out.println("1. Piggy bank Simulator");
             System.out.println("2. Lunch Order app");
-            System.out.println("3. ");
+            System.out.println("3. Digit Extractor app");
             System.out.println("4. Exit");
             System.out.print("Which program would you like to run (1-4): ");
 
@@ -47,6 +47,9 @@ public class OOP3 {
                     lunchOrder();
                     break;
                 case 3:
+                    digitExtractor();
+                    break;
+                case 4:
                     programRunning = false;
                     break;
             }
@@ -186,5 +189,57 @@ public class OOP3 {
 
         }
     }
+
+
+    /**
+     * This function runs the digit extractor app.
+     */
+    public static void digitExtractor() {
+        System.out.print("Enter a number: ");
+        int number = input.nextInt();
+        Num num = new Num(number);
+
+        System.out.println("show (W)hole number.");
+        System.out.println("show (O)nes digit.");
+        System.out.println("show (T)ens digit.");
+        System.out.println("show (H)undreds digit.");
+        System.out.println("show (N)th digit.");
+        System.out.println("(Q)uit");
+
+        boolean programRunning = true;
+        while (programRunning) {
+            System.out.print("Enter your choice: ");
+            char choice = input.next().charAt(0);
+
+            switch (choice) {
+                case 'W':
+                    System.out.format("Whole number: %d\n", num.getNumber());
+                    break;
+                case 'O':
+                    System.out.format("Ones digit: %d\n", num.onesDigit());
+                    break;
+                case 'T':
+                    System.out.format("Tens digit: %d\n", num.tensDigit());
+                    break;
+                case 'H':
+                    System.out.format("Hundreds digit: %d\n", num.hundredsDigit());
+                    break;
+                case 'N':
+                    System.out.print("Enter the digit you would like to extract: ");
+                    int n = input.nextInt();
+                    System.out.format("Nth digit: %d\n", num.nthDigit(n));
+                    break;
+                case 'Q':
+                    programRunning = false;
+                    break;
+                default:
+                    System.out.println("Invalid selection");
+                    break;
+            }
+        }
+        
+
+    }
+
 
 }

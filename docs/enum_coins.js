@@ -1,6 +1,8 @@
 var enum_coins =
 [
     [ "getdiameterInMillimeters", "enum_coins.html#a95b2816d376057b5de5ea02e632f2a95", null ],
+    [ "getdiameterInMillimeters", "enum_coins.html#a95b2816d376057b5de5ea02e632f2a95", null ],
+    [ "getValue", "enum_coins.html#abf0acf9a269c504b7f542ab607f42952", null ],
     [ "getValue", "enum_coins.html#abf0acf9a269c504b7f542ab607f42952", null ],
     [ "DIME", "enum_coins.html#a8eba64260106e90eaf5733b205b45edc", null ],
     [ "LOONIE", "enum_coins.html#a812265d64d869ba13a92177359da6861", null ],

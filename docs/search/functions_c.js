@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['randomstats_193',['randomStats',['../class_arrays.html#accbfbddccaa3c59da6edeedbeb82c3f3',1,'Arrays']]],
-  ['roundwin_194',['roundWin',['../class_adder_game.html#aa728678bfc7af1f8b0ef2171e40f3c45',1,'AdderGame']]]
+  ['onesdigit_217',['onesDigit',['../class_num.html#a5cb8d3be26bced594272f99bfb804e47',1,'Num']]]
 ];
