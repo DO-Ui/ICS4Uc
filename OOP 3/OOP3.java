@@ -196,14 +196,16 @@ public class OOP3 {
      */
     public static void digitExtractor() {
         System.out.print("Enter a number: ");
+        Num num = new Num(0);
         int number = input.nextInt();
-        Num num = new Num(number);
+        num.setNumber(number);
 
         System.out.println("show (W)hole number.");
         System.out.println("show (O)nes digit.");
         System.out.println("show (T)ens digit.");
         System.out.println("show (H)undreds digit.");
         System.out.println("show (N)th digit.");
+        System.out.println("(C)hange the number.")
         System.out.println("(Q)uit");
 
         boolean programRunning = true;
@@ -213,7 +215,7 @@ public class OOP3 {
 
             switch (choice) {
                 case 'W':
-                    System.out.format("Whole number: %d\n", num.getNumber());
+                    System.out.format("Whole number: %d\n", num.getNumber()); // Use of getter
                     break;
                 case 'O':
                     System.out.format("Ones digit: %d\n", num.onesDigit());
@@ -228,6 +230,11 @@ public class OOP3 {
                     System.out.print("Enter the digit you would like to extract: ");
                     int n = input.nextInt();
                     System.out.format("Nth digit: %d\n", num.nthDigit(n));
+                    break;
+                case 'C':
+                    System.out.print("Enter a number: ");
+                    number = input.nextInt();
+                    num.setNumber(number); // Use of setter
                     break;
                 case 'Q':
                     programRunning = false;
