@@ -70,6 +70,29 @@ public class OOP3 {
         menu[2] = new Food("French Fries", 1.30, 11.0, 36.0, 4.0);
         menu[3] = new Food("Soda", 0.95, 0.0, 38.0, 0.0);
 
+        System.out.println("Would you like to change the menu? (Y/N)");
+        char changeMenu = input.next().charAt(0);
+        if (changeMenu == 'Y') {
+            for (int i = 0; i < menu.length; i++) {
+                System.out.format("Enter the new name of the food item: ");
+                String foodName = input.next();
+                System.out.format("Enter the new price of the food item: ");
+                double price = input.nextDouble();
+                System.out.format("Enter the new fat content of the food item: ");
+                double fat = input.nextDouble();
+                System.out.format("Enter the new carbohydrates content of the food item: ");
+                double carbohydrates = input.nextDouble();
+                System.out.format("Enter the new fiber content of the food item: ");
+                double fiber = input.nextDouble();
+                menu[i].setFoodName(foodName); // Use of setter method
+                menu[i].setPrice(price);
+                menu[i].setFat(fat);
+                menu[i].setCarbohydrates(carbohydrates);
+                menu[i].setFiber(fiber);
+            }
+        }
+
+
         boolean programRunning = true;
 
         // Create an array list to store the order
@@ -78,9 +101,8 @@ public class OOP3 {
         while (programRunning) {
             System.out.println("Menu:");
             for (int i = 0; i < menu.length; i++) {
-                System.out.format("%d. %s - $%.2f\n", i + 1, menu[i].getFoodName(), menu[i].getPrice());
-                System.out.format("   Fat: %.2fg, Carbohydrates: %.2fg, Fiber: %.2fg\n", menu[i].getFat(),
-                        menu[i].getCarbohydrates(), menu[i].getFiber());
+                System.out.format("%d. %s - $%.2f\n", i + 1, menu[i].getFoodName(), menu[i].getPrice()); // Use of getter method
+                System.out.format("   Fat: %.2fg, Carbohydrates: %.2fg, Fiber: %.2fg\n", menu[i].getFat(), menu[i].getCarbohydrates(), menu[i].getFiber());
             }
             System.out.print("Enter the number of the item you would like to order (0 to finish order): ");
             int menuSelection = input.nextInt();
@@ -121,7 +143,7 @@ public class OOP3 {
 
         while (programRunning) {
             System.out.print(
-                    "1. Show total in bank.\n2. Add a penny.\n3. Add a nickel.\n4. Add a dime.\n5. Add a quarter.\n6. Add a loonie.\n7. Add a toonie\n8. Take money out of bank.\nEnter 0 to quit\nEnter your choice: ");
+                    "1. Show total in bank.\n2. Add a penny.\n3. Add a nickel.\n4. Add a dime.\n5. Add a quarter.\n6. Add a loonie.\n7. Add a toonie\n8. Take money out of bank.\n9. Set the coins in the bank\nEnter 0 to quit\nEnter your choice: ");
             int menuSelection = input.nextInt();
 
             if (menuSelection == 0) {
@@ -155,6 +177,22 @@ public class OOP3 {
                     coinSelection = Coins.TOONIE;
                     break;
                 case 8:
+                    break;
+                case 9:
+                    System.out.print("Enter the number of pennies: ");
+                    int pennies = input.nextInt();
+                    System.out.print("Enter the number of nickels: ");
+                    int nickels = input.nextInt();
+                    System.out.print("Enter the number of dimes: ");
+                    int dimes = input.nextInt();
+                    System.out.print("Enter the number of quarters: ");
+                    int quarters = input.nextInt();
+                    System.out.print("Enter the number of loonies: ");
+                    int loonies = input.nextInt();
+                    System.out.print("Enter the number of toonies: ");
+                    int toonies = input.nextInt();
+                    int[] coinsInBank = { pennies, nickels, dimes, quarters, loonies, toonies };
+                    bank.setCoinsInBank(coinsInBank);
                     break;
                 default:
                     System.out.println("Invalid selection");
@@ -196,16 +234,14 @@ public class OOP3 {
      */
     public static void digitExtractor() {
         System.out.print("Enter a number: ");
-        Num num = new Num(0);
         int number = input.nextInt();
-        num.setNumber(number);
+        Num num = new Num(number);
 
         System.out.println("show (W)hole number.");
         System.out.println("show (O)nes digit.");
         System.out.println("show (T)ens digit.");
         System.out.println("show (H)undreds digit.");
         System.out.println("show (N)th digit.");
-        System.out.println("(C)hange the number.")
         System.out.println("(Q)uit");
 
         boolean programRunning = true;
@@ -215,7 +251,7 @@ public class OOP3 {
 
             switch (choice) {
                 case 'W':
-                    System.out.format("Whole number: %d\n", num.getNumber()); // Use of getter
+                    System.out.format("Whole number: %d\n", num.getNumber());
                     break;
                 case 'O':
                     System.out.format("Ones digit: %d\n", num.onesDigit());
@@ -230,11 +266,6 @@ public class OOP3 {
                     System.out.print("Enter the digit you would like to extract: ");
                     int n = input.nextInt();
                     System.out.format("Nth digit: %d\n", num.nthDigit(n));
-                    break;
-                case 'C':
-                    System.out.print("Enter a number: ");
-                    number = input.nextInt();
-                    num.setNumber(number); // Use of setter
                     break;
                 case 'Q':
                     programRunning = false;

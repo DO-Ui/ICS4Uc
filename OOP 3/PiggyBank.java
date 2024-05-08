@@ -68,4 +68,9 @@ public class PiggyBank implements Bank {
 		return true;
 	}
 
+	public void setCoinsInBank(int[] coinsInBank) {
+		this.coinsInBank = coinsInBank;
+	}
+
+
 }
