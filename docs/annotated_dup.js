@@ -9,6 +9,7 @@ var annotated_dup =
     [ "Coins", "enum_coins.html", "enum_coins" ],
     [ "ConditionalStructures", "class_conditional_structures.html", "class_conditional_structures" ],
     [ "Customer", "class_customer.html", "class_customer" ],
+    [ "FilesAndExceptionHandling", "class_files_and_exception_handling.html", "class_files_and_exception_handling" ],
     [ "Food", "class_food.html", "class_food" ],
     [ "IntroToJava", "class_intro_to_java.html", "class_intro_to_java" ],
     [ "Loop", "class_loop.html", "class_loop" ],

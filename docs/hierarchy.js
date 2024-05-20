@@ -12,6 +12,7 @@ var hierarchy =
     [ "Coins", "enum_coins.html", null ],
     [ "ConditionalStructures", "class_conditional_structures.html", null ],
     [ "Customer", "class_customer.html", null ],
+    [ "FilesAndExceptionHandling", "class_files_and_exception_handling.html", null ],
     [ "Food", "class_food.html", null ],
     [ "IntroToJava", "class_intro_to_java.html", null ],
     [ "Loop", "class_loop.html", null ],

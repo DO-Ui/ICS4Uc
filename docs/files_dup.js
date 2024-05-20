@@ -2,6 +2,7 @@ var files_dup =
 [
     [ "Arrays", "dir_b47e2a2623e6b6e2088ab475daf1d246.html", "dir_b47e2a2623e6b6e2088ab475daf1d246" ],
     [ "Conditional Structures", "dir_10409761eaceecaf5b8e6d9c6d04b063.html", "dir_10409761eaceecaf5b8e6d9c6d04b063" ],
+    [ "Files and Exception Handling", "dir_ea03f55fb9ba3bf87da481ec33a4b97f.html", "dir_ea03f55fb9ba3bf87da481ec33a4b97f" ],
     [ "Intro to Java (Review Content)", "dir_90792b45ca68a7ff9a002b8a43d00e1d.html", "dir_90792b45ca68a7ff9a002b8a43d00e1d" ],
     [ "Loop", "dir_aeea2ae4d5e4fadb494e7a92b40116ae.html", "dir_aeea2ae4d5e4fadb494e7a92b40116ae" ],
     [ "Methods", "dir_2b9c4241c42dfb85a056344669c49e72.html", "dir_2b9c4241c42dfb85a056344669c49e72" ],
